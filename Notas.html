@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Notas</title>
+    <link rel="stylesheet" href="styles.css">
+
+    
+
+</head>
+<body>
+
+    
+
+    <div id="todo-app">
+        <h1>Tus Notas</h1>
+        <div class="container">
+            <div id="add-task">
+                <h2>Añadir Nota</h2>
+                <form id="task-form">
+                    <input type="text" id="task-input" placeholder="Notas">
+                    <input type="text" id="task-label" placeholder="Fecha">
+                    <button type="submit">Añadir</button>
+                </form>
+            </div>
+            <div id="task-list-container">
+                <h2>Notas</h2>
+                <ul id="task-list">
+                    <!-- Las tareas se añadirán aquí dinámicamente -->
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
